@@ -1,0 +1,20 @@
+[project]
+name = "keras3-inside-deep-learning"
+version = "0.1.0"
+description = "Keras 3 for inside deep learning"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "black[jupyter]>=25.1.0",
+    "jax>=0.5.0",
+    "jupyterlab>=4.3.5",
+    "keras>=3.8.0",
+    "matplotlib>=3.10.0",
+    "notebook>=7.3.2",
+    "optax>=0.2.4",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+    "torch>=2.6.0",
+    "tqdm>=4.67.1",
+]
