@@ -5,17 +5,18 @@ description = "Keras 3 for inside deep learning"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "black[jupyter]>=25.1.0",
-    "jax>=0.7.0",
+    "black[jupyter]>=26.1.0",
+    "jax>=0.7.2",
     "jupyterlab>=4.3.5",
-    "keras>=3.11.1",
-    "matplotlib>=3.10.1",
+    "keras==3.13.2",
+    "matplotlib==3.10.8",
     "notebook>=7.3.2",
-    "optax>=0.2.4",
+    "optax>=0.2.7",
     "pandas>=2.2.3",
-    "scikit-learn>=1.6.1",
+    "scikit-learn==1.8.0",
     "seaborn>=0.13.2",
-    "torch>=2.6.0",
-    "torchvision>=0.21.0",
+    "torch>=2.10.0",
+    "torchvision>=0.25.0",
     "tqdm>=4.67.1",
+    "ultraplot==2.1.2"
 ]
